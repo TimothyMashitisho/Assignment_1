@@ -1,0 +1,41 @@
+---
+title: "README"
+author: '20903936'
+date: "8/26/2021"
+output: github_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 6, fig.height = 5, fig.pos="H", fig.pos = 'H')
+
+rm(list=ls())  # clear all variables in current environment
+graphics.off() # clear all plots
+
+library(plyr)
+library(readr)
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(fmxdat)
+library(tinytex)
+library(rmarkdown)
+
+data <- fmxdat::Jalshtr
+
+```
+
+
+
+# Purpose
+
+The purpose of this is to begin my assingment 1
+
+```{r}
+
+x <- 50
+```
+
+# # code explained
+
+Blah
