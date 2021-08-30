@@ -89,7 +89,7 @@ data3 <- data2 %>%
   mutate(bps_100=(cum_ret* (1- 0.10)))%>%
   mutate(bps_200=(cum_ret*(1 - 0.20)))%>%
   mutate(bps_250=(cum_ret* (1 - 0.25)))%>%
-  mutate(bps_350=(cum_ret* (1- -0.30)))
+  mutate(bps_350=(cum_ret* (1 -0.30)))
 ```
 
 Plotting the series since inception
@@ -115,7 +115,7 @@ fmxdat::theme_fmx(title.size = ggpts(30),
   
   labs(x = "", y = "Cumulative Returns", caption = "",
        title = "Cumulative Returns Since Inception",
-       subtitle = "Base Return: FTSE JSE ALSI \nStart: June 2002")
+       subtitle = "Base Return: FTSE JSE ALSI \nStart: 2002")
 
 blah2002
 ```
